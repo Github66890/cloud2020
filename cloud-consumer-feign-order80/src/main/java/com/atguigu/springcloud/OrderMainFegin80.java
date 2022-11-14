@@ -10,6 +10,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 public class OrderMainFegin80 {
     public static void main(String[] args) {
         log.info("80hello");
+        log.info("hello");
         SpringApplication.run(OrderMainFegin80.class);
     }
 
